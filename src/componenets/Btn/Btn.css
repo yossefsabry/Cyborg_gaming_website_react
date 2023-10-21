@@ -1,0 +1,26 @@
+button {
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-left: 40px;
+    border: 1px solid transparent;
+    transition: var(--main-transition);
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+    transition: var(--main-transition);
+}
+
+.btn2:hover {
+    background-color: transparent;
+}
+
+button:hover {
+    color: var(--main-color);
+    background-color: var(--color-white);
+}

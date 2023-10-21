@@ -1,0 +1,37 @@
+.Gaming-card {
+    display: flex;
+    flex-grow: 1;
+    width: calc(100% -30px);
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: var(--main-transition);
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid #777;
+
+}
+
+.Gaming-card:hover {
+    transform: translateY(2px);
+}
+
+.Gaming-card img {
+    border-radius: 50%;
+}
+
+.Gaming-card h5 {
+    font-size: 16px;
+}
+
+@media (max-width: 776px) {
+    .Gaming-card h5 {
+        font-size: 1rem;
+    }
+
+    .Gaming-card {
+        gap: 30px;
+    }
+}

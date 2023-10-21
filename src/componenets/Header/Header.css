@@ -1,0 +1,205 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 1154px) {
+    header {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 954px) {
+    header {
+        padding: 1rem;
+    }
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+    cursor: pointer;
+}
+
+header input {
+    outline: none;
+    border: none;
+    background-color: var(--second-bg);
+    padding: 16px;
+    font-weight: 100;
+    color: var(--text-color);
+    border-radius: 40px;
+    font-size: 14px;
+    margin-right: 70px;
+}
+
+@media (max-width: 1154px) {
+    header input {
+        margin: 0;
+    }
+}
+
+header input::placeholder {
+    font-size: 14px;
+}
+
+header ul li:not(:last-child) {
+    margin-right: 25px;
+}
+
+header ul li:last-child {
+    background-color: var(--second-bg);
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
+
+.links-header {
+    cursor: pointer;
+    color: var(--text-color);
+    transition: var(--main-transition);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.links-header:hover {
+    color: var(--main-color);
+}
+
+header ul li:last-child .links-header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+header ul li:last-child img {
+    border-radius: 50%;
+    width: 40px;
+}
+
+header ul li {
+    cursor: pointer;
+    color: var(--text-color);
+    transition: var(--main-transition);
+    font-size: 14px;
+}
+
+header ul li:hover {
+    color: var(--main-color);
+}
+
+.active .links-header {
+    color: var(--main-color);
+}
+
+.toggle-menu {
+    display: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+
+.toggle-menu div {
+    width: 35px;
+    height: 2.3px;
+    background-color: var(--text-color);
+    position: relative;
+}
+
+.toggle-menu div::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2.6px;
+    background-color: var(--text-color);
+    top: 10px;
+    left: 0;
+}
+
+.toggle-menu div::before {
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 2.6px;
+    background-color: var(--text-color);
+    top: -10px;
+    left: 0;
+    transition: var(--main-transition);
+}
+
+.toggle-menu:hover div::before {
+    width: 100%;
+}
+
+/* start megu menu */
+@media (max-width: 950px) {
+    header ul {
+        background-color: var(--second-bg);
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 80px;
+        right: -100%;
+        display: none;
+        padding: 40px 40px 40px 50px;
+        border-top-left-radius: 20px;
+        transition: var(--main-transition);
+        border-bottom-left-radius: 20px;
+        border: 1px solid #676666;
+    }
+
+    .show-menu {
+        right: 0;
+        display: block;
+    }
+
+    header ul li {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    header ul li:last-child {
+        padding-bottom: 30px;
+    }
+
+    header input {
+        position: absolute;
+        right: -100%;
+        display: none;
+        transition: var(--main-transition);
+        top: 370px;
+        padding: 10px;
+        border: 1px solid rgb(186, 186, 186);
+        width: 150px;
+        z-index: 3;
+        font-size: 14px;
+        margin-right: 0px;
+    }
+
+    .show-input {
+        right: 15px;
+        display: block;
+    }
+
+    .toggle-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

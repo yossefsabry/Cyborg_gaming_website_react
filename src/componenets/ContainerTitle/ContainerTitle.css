@@ -1,0 +1,9 @@
+.container-title em {
+    text-decoration: underline;
+    color: white;
+}
+
+.container-title {
+    color: var(--main-color);
+    margin: 0px 0px 30px 0px;
+}

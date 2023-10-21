@@ -1,0 +1,23 @@
+footer {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+footer p {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: var(--color-white);
+    padding: 20px 10px 40px;
+    font-weight: bolder;
+}
+
+footer p em {
+    transition: var(--main-transition);
+    cursor: pointer;
+}
+
+footer p em:hover {
+    color: var(--main-color);
+}

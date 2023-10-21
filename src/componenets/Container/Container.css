@@ -1,0 +1,24 @@
+.container {
+    margin: 1rem 8rem;
+    background-color: var(--second-bg);
+    border-radius: 40px;
+    padding: 40px;
+}
+
+@media (max-width: 1154px) {
+    .container {
+        margin: 1rem 4rem;
+    }
+}
+
+@media (max-width: 1154px) {
+    .container {
+        margin: 1rem 8rem;
+    }
+}
+
+@media (max-width: 954px) {
+    .container {
+        margin: 1rem;
+    }
+}

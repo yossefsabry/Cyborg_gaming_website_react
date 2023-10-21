@@ -1,0 +1,24 @@
+ul {
+    list-style: none;
+}
+
+:root {
+    --main-bg: rgb(30, 30, 30);
+    --second-bg: rgb(62, 62, 62);
+    --color-white: white;
+    --text-color: rgb(171, 167, 167);
+    --main-color: rgb(201, 60, 83);
+    --main-transition: all .3s;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    color: var(--color-white);
+    background-color: var(--main-bg);
+}
+
+html {
+    font-size: 13px;
+}
