@@ -21,7 +21,7 @@ function Header() {
             </div>
             <nav>
                 <ul className={showMenu ? 'show-menu' : ''}>
-                    <li className='active links-header'><Link className='links-header' to="/">Home</Link></li>
+                    <li className=' links-header'><Link className='links-header' to="/">Home</Link></li>
                     <li><Link className='links-header' to="browse">Browse</Link></li>
                     <li><Link className='links-header' to="details">Details</Link></li>
                     <li><Link className='links-header' to="stream">Stream</Link></li>

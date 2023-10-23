@@ -1,11 +1,20 @@
+import FeaturedGaming from "../../componenets/Container/FeaturedGaming/FeaturedGaming"
 import "./Browse.css"
+import StreamLiveStream from "../../componenets/Container/StreamLiveStream/StreamLiveStream"
+import MostPopularLive from "../../componenets/Container/MostPopularLive/MostPopularLive"
+
 
 const Browse = () => {
+
     return (
-        <div>
-                <h2>Browse</h2>
-        </div>
+        <>
+            <div>
+                <FeaturedGaming />
+                <StreamLiveStream />
+                <MostPopularLive />
+            </div>
+        </>
     )
 }
 
-export default Browse
+export default Browse;

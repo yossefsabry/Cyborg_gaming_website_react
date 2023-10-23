@@ -1,0 +1,27 @@
+.start-live-stream {
+    margin: 20px 0;
+}
+
+.card-wrapper-live-stream {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    place-items: center;
+    place-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.card-live-stream {
+    border: 1px solid var(--main-bg);
+    padding: 30px;
+    border-radius: 30px;
+    height: 325px;
+}
+
+.card-live-stream img {
+    border-radius: 30px;
+}
+
+.card-live-stream p {
+    font-size: 17px;
+}

@@ -1,8 +1,13 @@
 import "./Stream.css"
+import MostPopularLive from "../../componenets/Container/MostPopularLive2/MostPopularLive"
+import LiveStreamSection from "../../componenets/Container/LiveStreamSection/LiveStreamSection"
+
+
 const Stream = () => {
     return (
         <div>
-            <h2>Stream</h2>
+            <LiveStreamSection />
+            <MostPopularLive />
         </div>
     )
 }

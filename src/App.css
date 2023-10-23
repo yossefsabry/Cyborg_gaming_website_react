@@ -4,7 +4,7 @@ ul {
 
 :root {
     --main-bg: rgb(30, 30, 30);
-    --second-bg: rgb(62, 62, 62);
+    --second-bg: rgb(46, 46, 46);
     --color-white: white;
     --text-color: rgb(171, 167, 167);
     --main-color: rgb(201, 60, 83);
@@ -20,5 +20,5 @@ body {
 }
 
 html {
-    font-size: 13px;
+    font-size: 18px;
 }

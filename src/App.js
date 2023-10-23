@@ -4,7 +4,7 @@ import Header from './componenets/Header/Header'
 import Footer from './componenets/Footer/Footer'
 import Container from './componenets/Container/Container'
 import { BrowserRouter as Router } from 'react-router-dom';
-
+import React from "react";
 
 function App() {
 
@@ -13,8 +13,8 @@ function App() {
       <div className='App'>
         <Router>
           <Header />
-            <Container>
-            </Container>
+          <Container>
+          </Container>
           <Footer />
         </Router>
       </div>

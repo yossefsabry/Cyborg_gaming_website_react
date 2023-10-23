@@ -1,0 +1,61 @@
+.main-card-sllider-feartured-gaming {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .main-card-sllider-feartured-gaming {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.main-card-sllider-feartured-gaming .all-Card-gaming-featured {
+    width: calc(100% - 30px);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    border-radius: 30px;
+    padding: 30px 0;
+}
+
+
+.content-rate,
+.content-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-rate i,
+.content-download i {
+    font-size: 20px;
+    color: yellow;
+}
+
+.content-download i {
+    color: var(--main-colowr);
+}
+
+.content-rate p,
+.content-download p {
+    font-size: 20px;
+}
+
+.content-download p {
+    padding-right: 40px;
+    padding-left: 30px;
+}
+
+.content-rate h2 {
+    padding-right: 40px;
+}
+
+.all-Card-gaming-featured {
+    background-color: var(--main-bg);
+}

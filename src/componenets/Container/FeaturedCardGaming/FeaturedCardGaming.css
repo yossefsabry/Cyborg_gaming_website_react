@@ -1,0 +1,51 @@
+.Featured-gaming-card {
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Featured-gaming-card img {
+    border-radius: 20px;
+    width: 250px;
+}
+
+@media (max-width: 767px) {
+    .Featured-gaming-card img {
+        width: 80%;
+    }
+}
+
+.Featured-gaming-card .gaming-featured-card-content,
+.Featured-gaming-card .gaming-featured-card-donwlaods {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Featured-gaming-card {
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.Featured-gaming-card .gaming-featured-card-content i {
+    font-weight: bolder;
+    font-size: 19px;
+    color: yellow;
+}
+
+.Featured-gaming-card .gaming-featured-card-content p {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.Featured-gaming-card .gaming-featured-card-donwlaods i {
+    font-weight: bolder;
+    font-size: 19px;
+    color: var(--main-color);
+}
+
+.Featured-gaming-card .gaming-featured-card-donwlaods p {
+    font-weight: bolder;
+    font-size: 16px;
+}

@@ -1,0 +1,58 @@
+.most-popluar-card-stream .main-image-stream {
+    border-radius: 40px;
+    height: 300px;
+}
+
+.most-popluar-card-stream {
+    width: calc(100% - 30px);
+    transition: var(--main-transition);
+}
+
+.most-popluar-card-stream:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 767px) {
+    .most-popluar-card-stream .main-image-stream {
+        border-radius: 40px;
+        height: 200px;
+    }
+
+    .most-popluar-card-stream {
+        padding: 0px;
+        transform: translateX(-22px);
+    }
+
+    .most-popluar-card-stream h2 {
+        padding: 0;
+    }
+
+    .content-stream-card {
+        padding: 0px;
+        width: 110%;
+    }
+}
+
+.profile-image-stream {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.most-popluar-card-stream {
+    padding: 30px;
+}
+
+.content-stream-card {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.content-stream-card i {
+    color: var(--main-color);
+}
+
+.content-stream-card p {
+    font-weight: bolder;
+}

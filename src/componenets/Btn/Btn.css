@@ -14,6 +14,7 @@ button {
     background-color: transparent;
     border: 1px solid var(--main-color);
     transition: var(--main-transition);
+    margin: 10px 0;
 }
 
 .btn2:hover {
