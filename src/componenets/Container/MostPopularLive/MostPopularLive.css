@@ -2,14 +2,14 @@
 
 .card-stream-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     margin: 0 auto;
     text-align: center;
 }
 
 @media (max-width: 768px) {
     .card-stream-wrapper {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
         text-align: center;
         margin: 0;
     }

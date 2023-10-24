@@ -1,0 +1,24 @@
+.Details-fornite-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 776px) {
+    .Details-fornite-wrapper {
+        flex-direction: column;
+    }
+
+    .Details-fornite-wrapper img {
+        border-radius: 30px;
+        width: 90%;
+    }
+}
+
+.Details-fornite-wrapper img {
+    border-radius: 30px;
+}

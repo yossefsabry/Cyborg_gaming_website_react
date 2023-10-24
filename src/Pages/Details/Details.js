@@ -1,9 +1,11 @@
 import "./Details.css"
-
+import DetailsFotnite from "../../componenets/Container/DetailsFotnite/DetailsFotnite"
+import DetailsSection from "../../componenets/Container/DetailsSection/DetailsSection"
 const Details = () => {
     return (
-        <div>   
-            <h2>Details</h2>
+        <div>
+            <DetailsFotnite />
+            <DetailsSection />
         </div>
     )
 }
