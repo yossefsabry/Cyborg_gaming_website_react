@@ -1,10 +1,13 @@
+import GamingLibrary from '../../componenets/Container/GamingLibrary2/GamingLibrary';
+import ProfileDetails from '../../componenets/Container/ProfileDetails/ProfileDetails';
 import './Profile.css';
 
 
 const Porfile = () => {
     return (
         <div>
-            <h2>profile</h2>
+            <ProfileDetails />
+            <GamingLibrary />
         </div>
     )
 }
