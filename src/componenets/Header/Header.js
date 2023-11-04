@@ -9,6 +9,12 @@ function Header() {
     const showToggleMenu = () => {
         setShowMenu(!showMenu);
     }
+    const handleScrollTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
     return (
         <header>
             <div className='logo'>
@@ -21,11 +27,11 @@ function Header() {
             </div>
             <nav>
                 <ul className={showMenu ? 'show-menu' : ''}>
-                    <li className=' links-header'><Link className='links-header' to="/">Home</Link></li>
-                    <li><Link className='links-header' to="browse">Browse</Link></li>
-                    <li><Link className='links-header' to="details">Details</Link></li>
-                    <li><Link className='links-header' to="stream">Stream</Link></li>
-                    <li><Link className='links-header' to="profile"><span>Profile</span> <img src={profile} alt='profile_image' /></Link></li>
+                    <li onClick={handleScrollTop} className=' links-header'><Link className='links-header' to="/">Home</Link></li>
+                    <li onClick={handleScrollTop}><Link className='links-header' to="browse">Browse</Link></li>
+                    <li onClick={handleScrollTop}><Link className='links-header' to="details">Details</Link></li>
+                    <li onClick={handleScrollTop}><Link className='links-header' to="stream">Stream</Link></li>
+                    <li onClick={handleScrollTop}><Link className='links-header' to="profile"><span>Profile</span> <img src={profile} alt='profile_image' /></Link></li>
                 </ul>
             </nav>
             <div onClick={showToggleMenu} className={`toggle-menu`} >

@@ -162,6 +162,7 @@ header ul li:hover {
         transition: var(--main-transition);
         border-bottom-left-radius: 20px;
         border: 1px solid #676666;
+        z-index: 100;
     }
 
     .show-menu {
@@ -190,6 +191,7 @@ header ul li:hover {
         z-index: 3;
         font-size: 14px;
         margin-right: 0px;
+        z-index: 200;
     }
 
     .show-input {
