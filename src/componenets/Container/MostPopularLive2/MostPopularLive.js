@@ -14,7 +14,7 @@ const MostPopularLive = () => {
     return (
         <>
             <Wrapper >
-                <div className="most-popular-live">
+                <div className="most-popular-live" data-aos="fade-left">
                     <ContainerTitle firstTitle="Most Popular" secondTitle="Live Stream" />
                     <div className="card-stream-wrapper">
                         {allCardStream}

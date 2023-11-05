@@ -28,8 +28,8 @@ const LiveStreamSection = () => {
 
     return (
         <>
-            <ContainerTitle firstTitle="Live" secondTitle="Streams" />
-            <div className="main-card-sllider-feartured-gaming">
+            <ContainerTitle firstTitle="Live" secondTitle="Streams" data-aos="fade-right" />
+            <div className="main-card-sllider-feartured-gaming" data-aos="fade-right">
                 <div className="all-Card-gaming-featured">
                     {allCard}
                 </div>

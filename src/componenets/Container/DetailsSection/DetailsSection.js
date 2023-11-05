@@ -8,7 +8,7 @@ import { Btn2 } from "../../Btn/Btn"
 
 const DetailsSection = () => {
     return (
-        <div>
+        <div data-aos="fade-left">
             <h1 className="title-fortnite">FORTNITE DETAILS</h1>
             <Wrapper>
                 <div className="wrapper-item-details">

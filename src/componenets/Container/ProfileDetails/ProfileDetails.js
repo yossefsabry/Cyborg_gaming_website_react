@@ -7,7 +7,7 @@ const ProfileDetails = () => {
     return (
         <>
             <Wrapper>
-                <div className="details-porile">
+                <div className="details-porile" data-aos="fade-right">
                     <div className="profile-img">
                         <img src={profileImage} alt="profile image" />
                     </div>

@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
             <Hero />
-            <MostPopular />
+            <MostPopular/>
             <GamingLibrary />
         </div>
     )

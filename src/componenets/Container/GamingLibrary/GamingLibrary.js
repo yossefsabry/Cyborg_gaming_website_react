@@ -13,7 +13,7 @@ const allGamingCard = GameDataDic.map((card) => {
 const GamingLibrary = () => {
     return (
         <Wrapper >
-            <div className="gaming-library">
+            <div className="gaming-library" data-aos="fade-right">
                 <ContainerTitle firstTitle="Your Gaming" secondTitle="Library" />
                 <div className="game-wrapper">
                     {allGamingCard}

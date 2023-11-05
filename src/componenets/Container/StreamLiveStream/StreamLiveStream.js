@@ -10,7 +10,7 @@ import img3 from "../../../images/service-03.jpg"
 
 export default function StreamLiveStream() {
     return (
-        <div className="start-live-stream">
+        <div className="start-live-stream" data-aos="fade-left">
             <ContainerTitle firstTitle="How To Start " secondTitle="Live Stream" />
             <div className="card-wrapper-live-stream">
                 <div className="card-live-stream">

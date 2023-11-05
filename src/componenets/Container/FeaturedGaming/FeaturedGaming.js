@@ -26,14 +26,14 @@ const FeaturedGaming = () => {
 
     return (
         <>
-                <ContainerTitle firstTitle="Featured" secondTitle="Games" />
-                <div className="main-card-sllider-feartured-gaming">
-                    <div className="all-Card-gaming-featured">
-                        {allCard}
-                    </div>
-                    <div className="top-donwloads">
-                        <TopDownloaded />
-                    </div>
+            <ContainerTitle firstTitle="Featured" secondTitle="Games" data-aos="fade-right"/>
+            <div className="main-card-sllider-feartured-gaming" data-aos="fade-right">
+                <div className="all-Card-gaming-featured">
+                    {allCard}
+                </div>
+                <div className="top-donwloads">
+                    <TopDownloaded />
+                </div>
             </div>
         </>
     );
