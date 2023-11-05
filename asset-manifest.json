@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cyborg_gaming_website_react/static/css/main.a333fbe6.css",
-    "main.js": "/Cyborg_gaming_website_react/static/js/main.970333c0.js",
+    "main.css": "/Cyborg_gaming_website_react/static/css/main.52ca68ec.css",
+    "main.js": "/Cyborg_gaming_website_react/static/js/main.f349c38b.js",
     "static/media/feature-right.jpg": "/Cyborg_gaming_website_react/static/media/feature-right.01ad26795580300e2029.jpg",
     "static/media/feature-left.jpg": "/Cyborg_gaming_website_react/static/media/feature-left.2e7e18e857172344a46d.jpg",
     "static/media/details-02.jpg": "/Cyborg_gaming_website_react/static/media/details-02.4c3a5cf3e64cb6cc18f5.jpg",
@@ -29,11 +29,11 @@
     "static/media/popular-07.jpg": "/Cyborg_gaming_website_react/static/media/popular-07.bbef6817bf6ac3dcdb80.jpg",
     "static/media/popular-03.jpg": "/Cyborg_gaming_website_react/static/media/popular-03.1c8955f99df2b3b94391.jpg",
     "index.html": "/Cyborg_gaming_website_react/index.html",
-    "main.a333fbe6.css.map": "/Cyborg_gaming_website_react/static/css/main.a333fbe6.css.map",
-    "main.970333c0.js.map": "/Cyborg_gaming_website_react/static/js/main.970333c0.js.map"
+    "main.52ca68ec.css.map": "/Cyborg_gaming_website_react/static/css/main.52ca68ec.css.map",
+    "main.f349c38b.js.map": "/Cyborg_gaming_website_react/static/js/main.f349c38b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a333fbe6.css",
-    "static/js/main.970333c0.js"
+    "static/css/main.52ca68ec.css",
+    "static/js/main.f349c38b.js"
   ]
 }
