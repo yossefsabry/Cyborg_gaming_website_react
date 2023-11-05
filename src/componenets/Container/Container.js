@@ -9,7 +9,7 @@ import Details from '../../Pages/Details/Details';
 function Container() {
     return (
 
-        <div className='container'>
+        <div className='container' data-aos="zoom-in">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="profile" element={<Porfile />} />

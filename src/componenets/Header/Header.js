@@ -17,6 +17,7 @@ function Header() {
             top: 0,
             behavior: "smooth"
         })
+        setShowMenu(false)
     }
     return (
         <header>
